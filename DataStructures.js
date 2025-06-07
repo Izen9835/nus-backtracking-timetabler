@@ -17,13 +17,22 @@ Session
 Timeslot
     a set of sessions
     (because some timeslots have multiple sessions)
-    (e.g. Mon 0900-1200 and Wed 0900-1200)
+    (e.g. Mon 0900-1200 and Wed 0900-1200 can come as a pair)
+
+    within a Timeslot, 
+    EITHER sessions share the same classNo
+    OR sessions share the same timing
+    Not both.
+
+Module
+    the set of timeslots available in a module
+    grouped into lessonType
 
 
 Timetable
-    a set of timeslots
-    conditions (hard constraints implemented here (?) ):
-        - No clashes between different modules
+    a set of timeslots defining the timetable...
+    genome : {A, B, C ...}
+    For every module, for each of its lessonTypes, choose one timeslot to fill in A,B,C...
 
 
 */
@@ -35,7 +44,7 @@ export class Session {
     this.end = obj.endTime;     // e.g., '1100'
     this.weeks = obj.weeks;
     this.classNo = obj.classNo;
-    // this.obj = obj; // possibly add back if needed down the lien
+    // this.obj = obj; // possibly add back if needed down the line
   }
 
   overlaps(other) { /*TODO: update this function to check for overlaps*/
@@ -47,22 +56,18 @@ export class Session {
 }
 
 export class Timeslot {
-  constructor(classNo) {
-    this.classNo = classNo;
-    this.altClassNo = []; // for alternative class numbers that share the same timing
+  constructor() {
+    this.classNo = new Set(); // for alternative class numbers that share the same timing
     this.sessions = []; // Array of Session objects
   }
 
-  hasSession(_Session) {
-
-  }
-
   insertSession(_Session) {
-
     this.sessions.push(_Session);
+    this.classNo.add(_Session.classNo);
+
   }
 
-  overlaps(otherTimeslot) { 
+  overlaps(otherTimeslot) {
     // consider matrix or double for loop (n^2)
     for (const s1 of this.sessions) {
       for (const s2 of otherTimeslot.sessions) {
@@ -74,9 +79,9 @@ export class Timeslot {
 }
 
 export class Timetable {
-    constructor(timeslots) {
-        this.timeslots = timeslots;
-    }
+  constructor(timeslots) {
+    this.timeslots = timeslots;
+  }
 }
 
 class BreakWindow extends Session {
@@ -87,33 +92,19 @@ class BreakWindow extends Session {
 }
 
 export class Module {
-  constructor(id) {
-    this.id = id;
+  constructor(code) {
+    this.code = code;
     this.availableTimeslots = {}; // Object
     // { lecture: [timeslot, timeslot, ... ],
     //   tutorial: [timeslot, timeslot, ... ]}
   }
 
-  isIdenticalTiming(slot1, slot2) {
-    return (slot1.startTime == slot2.startTime &&
-      slot1.endTime == slot2.endTime &&
-      slot1.weeks == slot2.weeks &&
-      slot1.day == slot2.day);
-  }
-
-  alreadyHasTimeslot(slot) {
-    for (var activity in this.availableTimeslots) {
-        for (var timeslot in this.availableTimeslots[activity]) {
-            if (this.isIdenticalTiming(timeslot, slot)) return true;
-        }
-    }
-    return false;
-  }
-
   addTimeslot(activity, Timeslot) {
+    // e.g. if already has a list of Lecture Timeslots, add to existing list
+    // otherwise create a new list
     if (this.availableTimeslots.hasOwnProperty(activity)) this.availableTimeslots[activity].push(Timeslot);
     else {
-        this.availableTimeslots[activity] = [Timeslot];
+      this.availableTimeslots[activity] = [Timeslot];
     }
   }
 }

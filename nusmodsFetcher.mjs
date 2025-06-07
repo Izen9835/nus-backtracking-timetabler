@@ -49,215 +49,96 @@ export default class ModFetcher {
 
   async fetchAllCleanModuleData() {
     var output = {};
-
-    const groupBy = key => array =>
-      array.reduce((objectsByKeyValue, obj) => {
-        const value = obj[key];
-        objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
-        return objectsByKeyValue;
-      }, {});
-
-
     var modData = await this.fetchAllModuleData();
 
-
-    // process modData
-    for (var mod in this._modList) {
-
+    for (var data of modData) {
       /* check semester availability */
       var isSemAvail = false;
-      var semIndex = -1;
-      for (var semData in modData[mod].semesterData) {
-        if (modData[mod].semesterData[semData].semester == this._sem) {
+      var semData;
+      for (var _semData of data.semesterData) {
+        if (_semData.semester == this._sem) {
           isSemAvail = true;
-          semIndex = semData;
+          semData = _semData;
         }
       }
-      if (!isSemAvail) throw new Error(`${this._modList[mod]} is not available in semester ${this._sem}`);
-      else console.log(`semester data is available for ${this._modList[mod]}`);
+      if (!isSemAvail) throw new Error(`${data.moduleCode} is not available in semester ${this._sem}`)
+      else console.log(`semester data is available for ${data.moduleCode}`);
 
+      console.log(`number of sessions to assign is: ${semData.timetable.length}`);
 
-      /* package timetableData into Modules */
-      // timetableData is a set of Sessions that has repeats uncleaned
-      // ignoring any Sessions that have identical timings.
-      var _Module = new Module(this._modList[mod]);
-      var timetableData = modData[mod].semesterData[semIndex].timetable;
+      output[data.moduleCode] = this.convertToModule(data.moduleCode, semData.timetable, semData.timetable.length);
 
-      /* var timetableData = [
-      {
-        classNo: '05',
-          startTime: '1400',
-            endTime: '1700',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'COM3-01-19',
-                  day: 'Monday',
-                    lessonType: 'Laboratory',
-                      size: 50,
-                        covidZone: 'C'
-      },
-
-      {
-        classNo: '01',
-          startTime: '0900',
-            endTime: '1200',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Wednesday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '01',
-          startTime: '1400',
-            endTime: '1700',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Monday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '02',
-          startTime: '1400',
-            endTime: '1700',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Tuesday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '03',
-          startTime: '1400',
-            endTime: '1700',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Wednesday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '04',
-          startTime: '0900',
-            endTime: '1200',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Tuesday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '03',
-          startTime: '0900',
-            endTime: '1200',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Monday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '02',
-          startTime: '1400',
-            endTime: '1700',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Friday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '04',
-          startTime: '0900',
-            endTime: '1200',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'E4A-04-08',
-                  day: 'Thursday',
-                    lessonType: 'Laboratory',
-                      size: 60,
-                        covidZone: 'C'
-      },
-      {
-        classNo: '05',
-          startTime: '0900',
-            endTime: '1200',
-              weeks: [
-                1, 2, 3, 4, 5, 6,
-                7, 8, 9, 10, 11, 12,
-                13
-              ],
-                venue: 'COM3-01-19',
-                  day: 'Wednesday',
-                    lessonType: 'Laboratory',
-                      size: 50,
-                        covidZone: 'C'
-      }
-      ]*/
-      // console.log(timetableData);
-      var groupedTimetableData = groupBy('classNo')(timetableData);
-      // console.log(groupedTimetableData);
-
-      for (var classNo in groupedTimetableData) {
-        var _Timeslot = new Timeslot(classNo,);
-
-        for (var session in groupedTimetableData[classNo]) {
-          var _Session = new Session(groupedTimetableData[classNo][session]);
-          _Timeslot.insertSession(_Session);
-        }
-
-        var activity = groupedTimetableData[classNo][0].lessonType;
-        _Module.addTimeslot(activity, _Timeslot);
-
-      }
-
-      output[this._modList[mod]] = _Module;
     }
 
     return output;
   }
+
+
+  convertToModule(moduleCode, semesterData, noToAssign) {
+    /* package semesterData into Timeslots */
+    // each Timeslot EITHER shares the same classNo
+    // OR shares the same timings
+    // not both
+
+    var output = new Module(moduleCode);
+    const assigned = new Set();
+
+    // Step 1: group by classNo
+    const groupByClassNo = Object.groupBy(semesterData,
+      item => item.classNo
+    );
+    for (const group of Object.values(groupByClassNo)) {
+      if (group.length > 1) {
+        var _timeslot = new Timeslot();
+
+        group.forEach(obj => {
+          assigned.add(obj);
+          _timeslot.insertSession(new Session(obj));
+        });
+
+        var activity = group[0].lessonType;
+        output.addTimeslot(activity, _timeslot);
+      }
+    }
+
+    // Step 2: group by Timings
+    const unassigned = semesterData.filter(obj => !assigned.has(obj));
+    const groupByTimings = Object.groupBy(unassigned,
+      item => `${item.startTime}-${item.endTime}-${item.day}`
+    );
+
+    for (const group of Object.values(groupByTimings)) {
+      if (group.length > 1) {
+        var _timeslot = new Timeslot();
+
+        group.forEach(obj => {
+          assigned.add(obj);
+          _timeslot.insertSession(new Session(obj));
+        });
+
+        var activity = group[0].lessonType;
+        output.addTimeslot(activity, _timeslot);
+      }
+    }
+
+    // Singletons (e.g. CS1010 sectional teaching)
+    const remaining = semesterData.filter(obj => !assigned.has(obj));
+    remaining.forEach(obj => {
+      var _timeslot = new Timeslot();
+      _timeslot.insertSession(new Session(obj));
+      output.addTimeslot(obj.lessonType, _timeslot);
+    });
+
+    // console.log("=======================================");
+    // console.log(moduleCode);
+    // console.log(output.availableTimeslots['Laboratory']);
+    // console.log(output.availableTimeslots['Tutorial']);
+    // console.log(output.availableTimeslots['Sectional Teaching']);
+
+    return output;
+  }
+
+
 }
 
 
