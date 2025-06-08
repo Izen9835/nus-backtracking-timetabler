@@ -38,13 +38,21 @@ Timetable
 */
 
 export class Session {
-  constructor(obj) {
+  constructor(obj, modCode) {
     this.day = obj.day;     // e.g., 'Monday'
-    this.start = obj.startTime; // e.g., '1000'
-    this.end = obj.endTime;     // e.g., '1100'
+    this.startTime = obj.startTime; // e.g., '1000'
+    this.endTime = obj.endTime;     // e.g., '1100'
     this.weeks = obj.weeks;
     this.classNo = obj.classNo;
+    this.moduleCode = modCode;
     // this.obj = obj; // possibly add back if needed down the line
+  }
+
+  isSameTiming(other) {
+    return (this.day == other.day &&
+      this.startTime == other.startTime &&
+      this.endTime == other.endTime
+    );
   }
 
   overlaps(other) { /*TODO: update this function to check for overlaps*/
@@ -62,9 +70,13 @@ export class Timeslot {
   }
 
   insertSession(_Session) {
+    if (this.sessions.length != 0 && _Session.isSameTiming(this.sessions[0])) {
+      this.classNo.add(_Session.classNo);
+      return;
+    }
+
     this.sessions.push(_Session);
     this.classNo.add(_Session.classNo);
-
   }
 
   overlaps(otherTimeslot) {

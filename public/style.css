@@ -1,0 +1,46 @@
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Five columns for Mon-Fri */
+    gap: 15px;
+    /* Increased margin between days */
+    max-width: 1500px;
+    margin: 40px auto;
+    min-height: 600px;
+}
+
+.day-column {
+    border: 1px solid #ccc;
+    background: #fafafa;
+    min-height: 600px;
+    position: relative;
+    padding-top: 30px;
+    overflow: visible;
+}
+
+.day-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+    z-index: 10;
+}
+
+.event {
+    position: absolute;
+    background: rgba(76, 175, 80, 0.3);
+    color: #222;
+    border-radius: 4px;
+    padding: 2px 5px;
+    font-size: 0.98em;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
