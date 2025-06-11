@@ -45,7 +45,6 @@ export class Session {
     this.weeks = obj.weeks;
     this.classNo = obj.classNo;
     this.moduleCode = modCode;
-    // this.obj = obj; // possibly add back if needed down the line
   }
 
   isSameTiming(other) {
@@ -58,8 +57,16 @@ export class Session {
   overlaps(other) { /*TODO: update this function to check for overlaps*/
     // return the amount of overlap (not just boolean)
     // which will be used later by fitness function
-    return this.day === other.day &&
-      !(this.end <= other.start || this.start >= other.end);
+    if (this.day != other.day) return 0;
+
+    const overlapStart = Math.max(this.startTime, other.startTime);
+    const overlapEnd = Math.min(this.endTime, other.endTime);
+
+    if (overlapStart < overlapEnd) {
+      return (overlapEnd - overlapStart);
+    } else {
+      return 0;
+    }
   }
 }
 
@@ -96,10 +103,10 @@ export class Timetable {
   }
 }
 
-class BreakWindow extends Session {
-  constructor(day, start, end, priority) {
-    super(day, start, end);
-    this.priority = priority; // 1 = highest importance
+export class Break extends Session {
+  constructor(obj, priority) {
+    super(obj, 'BREAK'); // moduleCode for all breaks shall be 'BREAK'
+    this.priority = priority; // e.g. 1 = highest importance
   }
 }
 
