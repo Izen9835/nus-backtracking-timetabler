@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "outDir": "dist",
+        "typeRoots": [
+            "./types",
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "public/**/*",
+        "genetic-js.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]   
+}

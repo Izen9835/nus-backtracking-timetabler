@@ -1,6 +1,8 @@
 import { Session, Break } from './modules/DataStructures.js';
 import ModFetcher from './modules/nusmodsFetcher.mjs';
 
+
+
 // Hash a string to a color (hex)
 function hashStringToColor(str) {
     let hash = 0;
@@ -194,7 +196,6 @@ async function initCalendar() {
         new Break({ day: 'Wednesday', startTime: '1100', endTime: '1200' }, 2),
         new Break({ day: 'Friday', startTime: '1000', endTime: '1100' }, 1),
     ];
-
     // user inputs end
 
     const fetcher = new ModFetcher(_modList, _sem);
@@ -209,6 +210,7 @@ async function initCalendar() {
 
     var fitness = getFitness(sessions, _breaks);
     console.log("fitness: ", fitness);
+
 
     renderCalendar(sessions, _breaks);
 }
