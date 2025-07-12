@@ -75,15 +75,19 @@ export default class ModFetcher {
   }
 
   async fetchAllModuleData() {
-    try {
-      return await Promise.all(
-        this._modList.map(mod => this.fetchSingleModuleData(mod))
-      );
-    } catch (error) {
-      console.error('Batch fetch failed:', error);
-      return [];
-    }
+    const results = await Promise.all(
+      this._modList.map(async mod => {
+        const data = await this.fetchSingleModuleData(mod);
+        if (data === null) {
+          return { moduleCode: mod, success: false, data: null, error: `Failed to fetch ${mod}` };
+        }
+        return { moduleCode: mod, success: true, data };
+      })
+    );
+    return results;
   }
+
+
 
   convertLessons(inputList, moduleCode) {
     // Mapping from long-form to short-form lesson types
@@ -194,6 +198,8 @@ export default class ModFetcher {
 
   findUnavailModules(modData, modList, sem) {
     const missing = [];
+
+    if (null in modData) return modList;
     for (const mod of modList) {
       const moduleObj = modData.find(m => m.moduleCode === mod);
       if (!moduleObj) {
