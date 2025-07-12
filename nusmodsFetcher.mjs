@@ -76,17 +76,13 @@ export default class ModFetcher {
 
   async fetchAllModuleData() {
     const results = await Promise.all(
-      this._modList.map(async mod => {
-        const data = await this.fetchSingleModuleData(mod);
-        if (data === null) {
-          return { moduleCode: mod, success: false, data: null, error: `Failed to fetch ${mod}` };
-        }
-        return { moduleCode: mod, success: true, data };
-      })
+      this._modList.map(mod => this.fetchSingleModuleData(mod))
     );
+    if (results.some(r => r === null)) {
+      throw new Error('One or more module fetches failed');
+    }
     return results;
   }
-
 
 
   convertLessons(inputList, moduleCode) {

@@ -1,4 +1,4 @@
-function solve(slots, breaks) {
+export function solve(slots, breaks) {
     const threshold = 10000;
     slots.sort((a, b) => a.slots.length - b.slots.length);
 
@@ -65,7 +65,7 @@ function cloneCombination(comb) {
     };
 }
 
-function convertToURL(slots, sem) {
+export function convertToURL(slots, sem) {
     if (slots == null) return 'No Combination Works';
     const base = `https://nusmods.com/timetable/sem-${sem}/share?`;
     const mods = {};
