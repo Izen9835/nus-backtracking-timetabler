@@ -1,0 +1,3154 @@
+[
+  {
+    "moduleCode": "CS2100",
+    "lessonType": "LAB",
+    "slots": [
+      {
+        "classNo": "10",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3480
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "11",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "12",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "13",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "14",
+        "timing": [
+          {
+            "startTime": 3660,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "15",
+        "timing": [
+          {
+            "startTime": 3720,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "16",
+        "timing": [
+          {
+            "startTime": 3780,
+            "endTime": 3840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "17",
+        "timing": [
+          {
+            "startTime": 3840,
+            "endTime": 3900
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "18",
+        "timing": [
+          {
+            "startTime": 3900,
+            "endTime": 3960
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "19",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "20",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 4980
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "21",
+        "timing": [
+          {
+            "startTime": 4980,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "22",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5100
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "23",
+        "timing": [
+          {
+            "startTime": 5100,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "24",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "25",
+        "timing": [
+          {
+            "startTime": 5220,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "26",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5340
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "27",
+        "timing": [
+          {
+            "startTime": 5340,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "28",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "29",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "30",
+        "timing": [
+          {
+            "startTime": 660,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "31",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "32",
+        "timing": [
+          {
+            "startTime": 780,
+            "endTime": 840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "33",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "34",
+        "timing": [
+          {
+            "startTime": 900,
+            "endTime": 960
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "35",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2040
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "36",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2100
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "37",
+        "timing": [
+          {
+            "startTime": 2100,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "38",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2220
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "39",
+        "timing": [
+          {
+            "startTime": 2220,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "40",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "41",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "05",
+        "timing": [
+          {
+            "startTime": 3660,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "timing": [
+          {
+            "startTime": 3780,
+            "endTime": 3840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "08",
+        "timing": [
+          {
+            "startTime": 3840,
+            "endTime": 3900
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "09",
+        "timing": [
+          {
+            "startTime": 3900,
+            "endTime": 3960
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "timing": [
+          {
+            "startTime": 3720,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3480
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LAB",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS2100",
+    "lessonType": "TUT",
+    "slots": [
+      {
+        "classNo": "10",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6360
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "11",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6420
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "12",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "13",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "14",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "15",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "16",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "17",
+        "timing": [
+          {
+            "startTime": 6720,
+            "endTime": 6780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "18",
+        "timing": [
+          {
+            "startTime": 6780,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "19",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6360
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "20",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6420
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "21",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "22",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "23",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "24",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "25",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "26",
+        "timing": [
+          {
+            "startTime": 6720,
+            "endTime": 6780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "27",
+        "timing": [
+          {
+            "startTime": 6780,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "28",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2040
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "29",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2100
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "30",
+        "timing": [
+          {
+            "startTime": 2100,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "31",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2220
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "32",
+        "timing": [
+          {
+            "startTime": 2220,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "33",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "34",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "35",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 600
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "36",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 660
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "37",
+        "timing": [
+          {
+            "startTime": 660,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "38",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 780
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "39",
+        "timing": [
+          {
+            "startTime": 780,
+            "endTime": 840
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "40",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "41",
+        "timing": [
+          {
+            "startTime": 900,
+            "endTime": 960
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5100
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 4980
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "timing": [
+          {
+            "startTime": 5220,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "08",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5340
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "05",
+        "timing": [
+          {
+            "startTime": 5100,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 4980,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "09",
+        "timing": [
+          {
+            "startTime": 5340,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS2100",
+    "lessonType": "LEC",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 2400,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "2",
+        "timing": [
+          {
+            "startTime": 2400,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "CS2100",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS2103",
+    "lessonType": "TUT",
+    "slots": [
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6420
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "05",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6360
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS2103",
+    "lessonType": "LEC",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 6720,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "CS2103",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "ST2334",
+    "lessonType": "TUT",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 660
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "2",
+        "timing": [
+          {
+            "startTime": 660,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "3",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 780
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "4",
+        "timing": [
+          {
+            "startTime": 780,
+            "endTime": 840
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "5",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "6",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2100
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "7",
+        "timing": [
+          {
+            "startTime": 2100,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "8",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2220
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "9",
+        "timing": [
+          {
+            "startTime": 2220,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "10",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "11",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "12",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "13",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 4980
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "14",
+        "timing": [
+          {
+            "startTime": 4980,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "15",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5100
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "16",
+        "timing": [
+          {
+            "startTime": 5100,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "17",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6420
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "18",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "19",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "20",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "TUT",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "ST2334",
+    "lessonType": "LEC",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "2",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "ST2334",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "QF1100",
+    "lessonType": "TUT",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 660
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "2",
+        "timing": [
+          {
+            "startTime": 660,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "3",
+        "timing": [
+          {
+            "startTime": 960,
+            "endTime": 1020
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "4",
+        "timing": [
+          {
+            "startTime": 1020,
+            "endTime": 1080
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "5",
+        "timing": [
+          {
+            "startTime": 2220,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "6",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "7",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5340
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "8",
+        "timing": [
+          {
+            "startTime": 5340,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "9",
+        "timing": [
+          {
+            "startTime": 5400,
+            "endTime": 5460
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "10",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "11",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "12",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "TUT",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "QF1100",
+    "lessonType": "LEC",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 6840,
+            "endTime": 6960
+          },
+          {
+            "startTime": 2520,
+            "endTime": 2640
+          }
+        ],
+        "moduleCode": "QF1100",
+        "lessonType": "LEC",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "UTC2114",
+    "lessonType": "Seminar-Style Module Class",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2220
+          }
+        ],
+        "moduleCode": "UTC2114",
+        "lessonType": "Seminar-Style Module Class",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  }
+]

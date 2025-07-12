@@ -1,0 +1,3320 @@
+[
+  {
+    "modName": "CS1010",
+    "type": "Tutorial",
+    "slots": [
+      {
+        "classNo": "01",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3360,
+            3420
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3420,
+            3480
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3540,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3720,
+            3780
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3540,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3420,
+            3480
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3660,
+            3720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3540
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3540
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01A",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3360,
+            3420
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3720,
+            3780
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "modName": "CS1010",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3660,
+            3720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "CS1010",
+    "type": "Laboratory",
+    "slots": [
+      {
+        "classNo": "E08",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C05",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A04",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4800,
+            4920
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C04",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A05",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4800,
+            4920
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D06",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E04",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B03",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A03",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4800,
+            4920
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B06",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C07",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E07",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C06",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D07",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E03",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C03",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D03",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D05",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B04",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B05",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D04",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E05",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D08",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A06",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4800,
+            4920
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E06",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B07",
+        "modName": "CS1010",
+        "type": "Laboratory",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "CS1010",
+    "type": "Sectional Teaching",
+    "slots": [
+      {
+        "classNo": "1",
+        "modName": "CS1010",
+        "type": "Sectional Teaching",
+        "timing": [
+          [
+            960,
+            1080
+          ]
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "CS1231",
+    "type": "Tutorial",
+    "slots": [
+      {
+        "classNo": "15",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6600,
+            6720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "16",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6720,
+            6840
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2160,
+            2280
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            840,
+            960
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "08",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2400,
+            2520
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            600,
+            720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            960,
+            1080
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            720,
+            840
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "05",
+        "modName": "CS1231",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2040,
+            2160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "CS1231",
+    "type": "Sectional Teaching",
+    "slots": [
+      {
+        "classNo": "1",
+        "modName": "CS1231",
+        "type": "Sectional Teaching",
+        "timing": [
+          [
+            6480,
+            6540
+          ],
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "HSI1000",
+    "type": "Workshop",
+    "slots": [
+      {
+        "classNo": "C11",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6480,
+            6660
+          ],
+          [
+            6480,
+            6660
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C12",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6660,
+            6840
+          ],
+          [
+            6660,
+            6840
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D8",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            4860,
+            5040
+          ],
+          [
+            4860,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C5",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2340,
+            2520
+          ],
+          [
+            2340,
+            2520
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C6",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3420,
+            3600
+          ],
+          [
+            3420,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D4",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2160,
+            2340
+          ],
+          [
+            2160,
+            2340
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C9",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            5040,
+            5220
+          ],
+          [
+            5040,
+            5220
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D10",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6300,
+            6480
+          ],
+          [
+            6300,
+            6480
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D2",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            720,
+            900
+          ],
+          [
+            720,
+            900
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D5",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2340,
+            2520
+          ],
+          [
+            2340,
+            2520
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D9",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            5040,
+            5220
+          ],
+          [
+            5040,
+            5220
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C1",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            540,
+            720
+          ],
+          [
+            540,
+            720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F3",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            1980,
+            2160
+          ],
+          [
+            1980,
+            2160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F11",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6480,
+            6660
+          ],
+          [
+            6480,
+            6660
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F6",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3420,
+            3600
+          ],
+          [
+            3420,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E11",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6480,
+            6660
+          ],
+          [
+            6480,
+            6660
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E6",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3420,
+            3600
+          ],
+          [
+            3420,
+            3600
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E8",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            4860,
+            5040
+          ],
+          [
+            4860,
+            5040
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E9",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            5040,
+            5220
+          ],
+          [
+            5040,
+            5220
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E10",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6300,
+            6480
+          ],
+          [
+            6300,
+            6480
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E5",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2340,
+            2520
+          ],
+          [
+            2340,
+            2520
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "F2",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            720,
+            900
+          ],
+          [
+            720,
+            900
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F4",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2160,
+            2340
+          ],
+          [
+            2160,
+            2340
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F8",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            4860,
+            5040
+          ],
+          [
+            4860,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E4",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2160,
+            2340
+          ],
+          [
+            2160,
+            2340
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E3",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            1980,
+            2160
+          ],
+          [
+            1980,
+            2160
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E2",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            720,
+            900
+          ],
+          [
+            720,
+            900
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "C2",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            720,
+            900
+          ],
+          [
+            720,
+            900
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C7",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3600,
+            3780
+          ],
+          [
+            3600,
+            3780
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F1",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            540,
+            720
+          ],
+          [
+            540,
+            720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F7",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3600,
+            3780
+          ],
+          [
+            3600,
+            3780
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F9",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            5040,
+            5220
+          ],
+          [
+            5040,
+            5220
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F5",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2340,
+            2520
+          ],
+          [
+            2340,
+            2520
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F12",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6660,
+            6840
+          ],
+          [
+            6660,
+            6840
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "D12",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6660,
+            6840
+          ],
+          [
+            6660,
+            6840
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D3",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            1980,
+            2160
+          ],
+          [
+            1980,
+            2160
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C4",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            2160,
+            2340
+          ],
+          [
+            2160,
+            2340
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F10",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6300,
+            6480
+          ],
+          [
+            6300,
+            6480
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E12",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6660,
+            6840
+          ],
+          [
+            6660,
+            6840
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E1",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            540,
+            720
+          ],
+          [
+            540,
+            720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E7",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3600,
+            3780
+          ],
+          [
+            3600,
+            3780
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "C3",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            1980,
+            2160
+          ],
+          [
+            1980,
+            2160
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C8",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            4860,
+            5040
+          ],
+          [
+            4860,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D11",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6480,
+            6660
+          ],
+          [
+            6480,
+            6660
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D1",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            540,
+            720
+          ],
+          [
+            540,
+            720
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C10",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            6300,
+            6480
+          ],
+          [
+            6300,
+            6480
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D7",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3600,
+            3780
+          ],
+          [
+            3600,
+            3780
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D6",
+        "modName": "HSI1000",
+        "type": "Workshop",
+        "timing": [
+          [
+            3420,
+            3600
+          ],
+          [
+            3420,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "HSI1000",
+    "type": "Lecture",
+    "slots": [
+      {
+        "classNo": "1",
+        "modName": "HSI1000",
+        "type": "Lecture",
+        "timing": [
+          [
+            5280,
+            5400
+          ]
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "CDE2000",
+    "type": "Tutorial",
+    "slots": [
+      {
+        "classNo": "A11",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A7",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3600
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A9",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A12",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6360,
+            6480
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A3",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2160,
+            2280
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A4",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A13",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6480,
+            6600
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A2",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            720,
+            840
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A8",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3600
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A10",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            5040,
+            5160
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A5",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A1",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            600,
+            720
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A6",
+        "modName": "CDE2000",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2400,
+            2520
+          ]
+        ],
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "PF1101A",
+    "type": "Lecture",
+    "slots": [
+      {
+        "classNo": "1",
+        "modName": "PF1101A",
+        "type": "Lecture",
+        "timing": [
+          [
+            5160,
+            5280
+          ]
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "modName": "PF1101A",
+    "type": "Tutorial",
+    "slots": [
+      {
+        "classNo": "10",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2160,
+            2280
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "11",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "12",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "13",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3600
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "14",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3480,
+            3600
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "15",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "16",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "17",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "18",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "19",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6360,
+            6480
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "20",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6360,
+            6480
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "21",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6480,
+            6600
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "22",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6480,
+            6600
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "23",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6600,
+            6720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "24",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6600,
+            6720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "25",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "26",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2280,
+            2400
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "27",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "28",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            3600,
+            3720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "29",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "30",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            4920,
+            5040
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "31",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6480,
+            6600
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "32",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6480,
+            6600
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "33",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6600,
+            6720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "34",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            6600,
+            6720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "35",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2400,
+            2520
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "03",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            840,
+            960
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "05",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            960,
+            1080
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "01",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            600,
+            720
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "02",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            600,
+            720
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "08",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2040,
+            2160
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "04",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            840,
+            960
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "07",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2040,
+            2160
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "09",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            2160,
+            2280
+          ]
+        ],
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "06",
+        "modName": "PF1101A",
+        "type": "Tutorial",
+        "timing": [
+          [
+            960,
+            1080
+          ]
+        ],
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,3320 @@
+[
+  {
+    "moduleCode": "CS1010",
+    "lessonType": "Tutorial",
+    "slots": [
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 3360,
+            "endTime": 3420
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3480
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04A",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07A",
+        "timing": [
+          {
+            "startTime": 3720,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02A",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3480
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06A",
+        "timing": [
+          {
+            "startTime": 3660,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03A",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01A",
+        "timing": [
+          {
+            "startTime": 3360,
+            "endTime": 3420
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "timing": [
+          {
+            "startTime": 3720,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "timing": [
+          {
+            "startTime": 3660,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS1010",
+    "lessonType": "Laboratory",
+    "slots": [
+      {
+        "classNo": "E08",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C05",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A04",
+        "timing": [
+          {
+            "startTime": 4800,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C04",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A05",
+        "timing": [
+          {
+            "startTime": 4800,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D06",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E04",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B03",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A03",
+        "timing": [
+          {
+            "startTime": 4800,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B06",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C07",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E07",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C06",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D07",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E03",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "C03",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D03",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D05",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B04",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B05",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D04",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E05",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "D08",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "A06",
+        "timing": [
+          {
+            "startTime": 4800,
+            "endTime": 4920
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "E06",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "B07",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Laboratory",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS1010",
+    "lessonType": "Sectional Teaching",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 960,
+            "endTime": 1080
+          }
+        ],
+        "moduleCode": "CS1010",
+        "lessonType": "Sectional Teaching",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS1231",
+    "lessonType": "Tutorial",
+    "slots": [
+      {
+        "classNo": "15",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "16",
+        "timing": [
+          {
+            "startTime": 6720,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "06",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 960
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "08",
+        "timing": [
+          {
+            "startTime": 2400,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 960,
+            "endTime": 1080
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "07",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 840
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": "05",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CS1231",
+    "lessonType": "Sectional Teaching",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          },
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CS1231",
+        "lessonType": "Sectional Teaching",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "HSI1000",
+    "lessonType": "Workshop",
+    "slots": [
+      {
+        "classNo": "C11",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          },
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C12",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          },
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D8",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          },
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C5",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          },
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C6",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          },
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D4",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          },
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C9",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          },
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D10",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          },
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D2",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 900
+          },
+          {
+            "startTime": 720,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D5",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          },
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D9",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          },
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C1",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          },
+          {
+            "startTime": 540,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F3",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          },
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F11",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          },
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F6",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          },
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E11",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          },
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E6",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          },
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E8",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          },
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E9",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          },
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E10",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          },
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E5",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          },
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "F2",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 900
+          },
+          {
+            "startTime": 720,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F4",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          },
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F8",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          },
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E4",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          },
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E3",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          },
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E2",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 900
+          },
+          {
+            "startTime": 720,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "C2",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 900
+          },
+          {
+            "startTime": 720,
+            "endTime": 900
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C7",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          },
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F1",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          },
+          {
+            "startTime": 540,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F7",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          },
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F9",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          },
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F5",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          },
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "F12",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          },
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "D12",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          },
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D3",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          },
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C4",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          },
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "F10",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          },
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          12
+        ]
+      },
+      {
+        "classNo": "E12",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          },
+          {
+            "startTime": 6660,
+            "endTime": 6840
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "E1",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          },
+          {
+            "startTime": 540,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "E7",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          },
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "C3",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          },
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "C8",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          },
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D11",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          },
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D1",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          },
+          {
+            "startTime": 540,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "C10",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          },
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "D7",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          },
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      },
+      {
+        "classNo": "D6",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          },
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Workshop",
+        "weeks": [
+          3,
+          4,
+          7,
+          8,
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "HSI1000",
+    "lessonType": "Lecture",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5400
+          }
+        ],
+        "moduleCode": "HSI1000",
+        "lessonType": "Lecture",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "CDE2000",
+    "lessonType": "Tutorial",
+    "slots": [
+      {
+        "classNo": "A11",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A7",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A9",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A12",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A3",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A4",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A13",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A2",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 840
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A8",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A10",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5160
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A5",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A1",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "classNo": "A6",
+        "timing": [
+          {
+            "startTime": 2400,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "CDE2000",
+        "lessonType": "Tutorial",
+        "weeks": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "PF1101A",
+    "lessonType": "Lecture",
+    "slots": [
+      {
+        "classNo": "1",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5280
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Lecture",
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "moduleCode": "PF1101A",
+    "lessonType": "Tutorial",
+    "slots": [
+      {
+        "classNo": "10",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "11",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "12",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "13",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "14",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "15",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "16",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "17",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "18",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "19",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "20",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6480
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "21",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "22",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "23",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "24",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "25",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "26",
+        "timing": [
+          {
+            "startTime": 2280,
+            "endTime": 2400
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "27",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "28",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "29",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "30",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 5040
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "31",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "32",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6600
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "33",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "34",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "35",
+        "timing": [
+          {
+            "startTime": 2400,
+            "endTime": 2520
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "03",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 960
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "05",
+        "timing": [
+          {
+            "startTime": 960,
+            "endTime": 1080
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "01",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "02",
+        "timing": [
+          {
+            "startTime": 600,
+            "endTime": 720
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "08",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "04",
+        "timing": [
+          {
+            "startTime": 840,
+            "endTime": 960
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      },
+      {
+        "classNo": "07",
+        "timing": [
+          {
+            "startTime": 2040,
+            "endTime": 2160
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "09",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2280
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ]
+      },
+      {
+        "classNo": "06",
+        "timing": [
+          {
+            "startTime": 960,
+            "endTime": 1080
+          }
+        ],
+        "moduleCode": "PF1101A",
+        "lessonType": "Tutorial",
+        "weeks": [
+          4,
+          6,
+          8,
+          10,
+          12
+        ]
+      }
+    ]
+  }
+]
