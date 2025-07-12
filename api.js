@@ -44,8 +44,8 @@ app.get('/modules/validate', async (req, res) => {
     }
 });
 
-// Example: GET /modules/validate?mods=CS2100,CS2101&sem=1&acadYear=2025-2026
-app.get('/timetabler', async (req, res) => {
+// Example: GET /nusmodsURL?mods=CS2100,CS2101&sem=1&acadYear=2025-2026
+app.get('/nusmodsURL', async (req, res) => {
     try {
         const modList = (req.query.mods || '').split(',').map(s => s.trim()).filter(Boolean);
         const sem = parseInt(req.query.sem, 10);
