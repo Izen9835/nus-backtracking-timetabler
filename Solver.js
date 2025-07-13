@@ -1,6 +1,7 @@
 export function solve(slots, breaks) {
     const threshold = 10000;
-    slots.sort((a, b) => a.slots.length - b.slots.length);
+    optimiseForSolving(slots);
+    //slots.sort((a, b) => a.slots.length - b.slots.length); 
     const combined = appendBreaksToSlots(slots, breaks);
     const start = {
         fitness: 0,
@@ -14,6 +15,33 @@ export function solve(slots, breaks) {
         }
     });
     return best;
+}
+
+function optimiseForSolving(slots) {
+    slots.sort((a, b) => a.slots.length - b.slots.length);
+    for (const slot of slots) {
+        slot.slots.sort((s1, s2) => {
+            const conflictCount = (s) => {
+                slots.reduce((acc, otherClass) => {
+                    if (otherClass === slot) return acc;
+                    for (const otherSlot of otherClass.slots) {
+                        for (const sTiming of s.timing) {
+                            for (const oTiming of otherSlot.timing) {
+                                const overlap = Math.max(
+                                    0,
+                                    Math.min(sTiming.endTime, oTiming.endTime) -
+                                    Math.max(sTiming.startTime, oTiming.startTime)
+                                );
+                                if (overlap > 0) return acc + 1;
+                            }
+                        }
+                    }
+                }, 0)
+            };
+            return conflictCount(s1) - conflictCount(s2);
+        })
+    }
+    return;
 }
 
 function backtrack(slots, index, curr, threshold, reportBest) {
