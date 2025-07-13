@@ -65,8 +65,31 @@ function cloneCombination(comb) {
     };
 }
 
+function breakConverter(breaks) {
+    const dayToMinutes = {
+        Monday: 0,
+        Tuesday: 1440,
+        Wednesday: 2880,
+        Thursday: 4320,
+        Friday: 5760,
+        Saturday: 7200,
+        Sunday: 8640
+      };
+    
+      function timeToMinutes(timeStr) {
+        const [hour, minute] = timeStr.split(':').map(Number);
+        return hour * 60 + minute;
+      }
+    
+      return breaksByDay.map(({ day, startTime, endTime }) => ({
+        startTime: dayToMinutes[day] + timeToMinutes(startTime),
+        endTime: dayToMinutes[day] + timeToMinutes(endTime)
+      }));
+}
+
 function appendBreaksToSlots(slots, breaks) {
-    const breakSlotGroup = breaks.map((brk, idx) => ({
+    const convertedBreaks = breakConverter(breaks);
+    const breakSlotGroup = convertedBreaks.map((brk, idx) => ({
         classNo: `B${idx + 1}`,
         timing: [
             {
