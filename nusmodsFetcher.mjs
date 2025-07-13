@@ -61,6 +61,28 @@ export default class ModFetcher {
     this._sem = sem;
     this._acadYear = acadYear;
     this.baseUrl = 'https://api.nusmods.com/v2/'; //might need to add AY eventually
+
+    // Mapping lessonType to short codes
+    this.lessonTypeMap = {
+      "Laboratory": "LAB",
+      "Lecture": "LEC",
+      "Tutorial": "TUT",
+      "Recitation": "REC",
+      "Sectional Teaching": "SEC",
+      "Workshop": "WS",
+      "Seminar-Style Module Class": "SEM",
+    };
+
+    // Mapping day to minutes since Monday 0000
+    this.dayToMinutes = {
+      "Monday": 0,
+      "Tuesday": 1 * 24 * 60,
+      "Wednesday": 2 * 24 * 60,
+      "Thursday": 3 * 24 * 60,
+      "Friday": 4 * 24 * 60,
+      "Saturday": 5 * 24 * 60,
+      "Sunday": 6 * 24 * 60
+    };
   }
 
   async fetchSingleModuleData(moduleCode) {
@@ -84,74 +106,104 @@ export default class ModFetcher {
     return results;
   }
 
+  // Helper: Converts "HHMM" to minutes
+  timeToMinutes(timeStr) {
+    const hour = parseInt(timeStr.slice(0, 2), 10);
+    const min = parseInt(timeStr.slice(2), 10);
+    return hour * 60 + min;
+  }
 
-  convertLessons(inputList, moduleCode) {
-    // Mapping from long-form to short-form lesson types
-    const lessonTypeMap = {
-      "Laboratory": "LAB",
-      "Lecture": "LEC",
-      "Tutorial": "TUT",
-      "Recitation": "REC",
-      "Sectional Teaching": "SEC",
-      "Workshop": "WS",
-      "Seminar-Style Module Class": "SEM",
-    };
+  // Helper: Converts day + time to absolute minutes since Monday 0000
+  absoluteMinutes(day, timeStr) {
+    return this.dayToMinutes[day] + this.timeToMinutes(timeStr);
+  }
 
-    const dayToMinutes = {
-      "Monday": 0,
-      "Tuesday": 1 * 24 * 60,
-      "Wednesday": 2 * 24 * 60,
-      "Thursday": 3 * 24 * 60,
-      "Friday": 4 * 24 * 60,
-      "Saturday": 5 * 24 * 60,
-      "Sunday": 6 * 24 * 60
-    };
-
-    function timeToMinutes(timeStr) {
-      const hour = parseInt(timeStr.slice(0, 2), 10);
-      const min = parseInt(timeStr.slice(2), 10);
-      return hour * 60 + min;
+  /**
+   * Main function to process the timetable array.
+   * @param {Array} lessons - Array of lesson objects
+   * @param {String} moduleCode - Module code (e.g., "CS1010")
+   * @returns {Array} - Grouped and merged timetable objects
+   */
+  processTimetable(lessons, moduleCode) {
+    // 1. Group by original lessonType (e.g., "Laboratory")
+    const lessonTypeGroups = {};
+    for (const lesson of lessons) {
+      if (!lessonTypeGroups[lesson.lessonType]) {
+        lessonTypeGroups[lesson.lessonType] = [];
+      }
+      lessonTypeGroups[lesson.lessonType].push(lesson);
     }
 
-    const grouped = {};
-    inputList.forEach(item => {
-      // Map lessonType to short code, keep original if not mapped
-      const lt = lessonTypeMap[item.lessonType] || item.lessonType;
-      const classNo = item.classNo;
-      const day = item.day;
-      const start = item.startTime;
-      const end = item.endTime;
-      const weeks = item.weeks;
-      const timingObj = {
-        startTime: dayToMinutes[day] + timeToMinutes(start),
-        endTime: dayToMinutes[day] + timeToMinutes(end)
-      };
-      if (!grouped[lt]) grouped[lt] = {};
-      if (!grouped[lt][classNo]) grouped[lt][classNo] = { timing: [], weeks: new Set() };
-      grouped[lt][classNo].timing.push(timingObj);
-      weeks.forEach(w => grouped[lt][classNo].weeks.add(w));
-    });
-
+    // 2. For each lessonType group, merge by timing & classNo
     const result = [];
-    for (const [lessonType, classGroups] of Object.entries(grouped)) {
-      const slots = [];
-      for (const [classNo, data] of Object.entries(classGroups)) {
-        slots.push({
-          classNo,
-          timing: data.timing,
-          moduleCode,
-          lessonType, // short code, e.g., "LAB"
-          weeks: Array.from(data.weeks).sort((a, b) => a - b)
-        });
+
+    for (const [lessonType, group] of Object.entries(lessonTypeGroups)) {
+      // Map from timingKey (string) to slot object
+      const timingMap = {};
+
+      for (const lesson of group) {
+        // Compute timing in minutes
+        const start = this.absoluteMinutes(lesson.day, lesson.startTime);
+        const end = this.absoluteMinutes(lesson.day, lesson.endTime);
+
+        // Use timing as part of the key
+        const timingKey = `${start}-${end}`;
+
+        // Optionally, you can merge by weeks too if needed, but for now, merge only by timing
+        if (!timingMap[timingKey]) {
+          timingMap[timingKey] = {
+            classNos: new Set(),
+            weeks: new Set(),
+            timing: { startTime: start, endTime: end }
+          };
+        }
+        timingMap[timingKey].classNos.add(lesson.classNo);
+        lesson.weeks.forEach(w => timingMap[timingKey].weeks.add(w));
       }
+
+      // Now, merge slots with identical timings into one slot with multiple classNos
+      // But also, if slots have identical classNos and lessonType, merge their timings
+
+      // First, group by classNos
+      const classNoMap = {};
+
+      for (const slot of Object.values(timingMap)) {
+        // Key by sorted classNos
+        const classNoKey = Array.from(slot.classNos).sort().join(",");
+        if (!classNoMap[classNoKey]) {
+          classNoMap[classNoKey] = {
+            classNo: Array.from(slot.classNos).sort(),
+            moduleCode,
+            lessonType: this.lessonTypeMap[lessonType] || lessonType,
+            timing: [],
+            weeks: new Set()
+          };
+        }
+        classNoMap[classNoKey].timing.push(slot.timing);
+        slot.weeks.forEach(w => classNoMap[classNoKey].weeks.add(w));
+      }
+
+      // Prepare the slots array
+      const slots = Object.values(classNoMap).map(slot => ({
+        classNo: slot.classNo,
+        moduleCode: slot.moduleCode,
+        lessonType: slot.lessonType,
+        timing: slot.timing,
+        weeks: Array.from(slot.weeks).sort((a, b) => a - b)
+      }));
+
+      // Push to result
       result.push({
         moduleCode,
-        lessonType, // short code, e.g., "LAB"
+        lessonType,
         slots
       });
     }
+
     return result;
   }
+
+
 
 
 
@@ -163,7 +215,7 @@ export default class ModFetcher {
     const semObj = moduleObj.semesterData.find(s => s.semester === semester);
     if (!semObj) throw new Error(`Semester ${semester} not found for module ${moduleCode}`);
     // Transform timetable
-    return this.convertLessons(semObj.timetable, moduleCode);
+    return this.processTimetable(semObj.timetable, moduleCode);
   }
 
   async getCleaned() {

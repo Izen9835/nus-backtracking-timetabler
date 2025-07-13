@@ -2,7 +2,7 @@
 import ModFetcher from '../nusmodsFetcher.mjs'
 
 // user input after cleaning
-var _modList = ['CG2111'];
+var _modList = ['CS1010'];
 var _sem = 1
 var _acadYear = "2025-2026";
 
