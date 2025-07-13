@@ -1,14 +1,14 @@
 export function solve(slots, breaks) {
     const threshold = 10000;
     slots.sort((a, b) => a.slots.length - b.slots.length);
-    const combinedSlots = appendBreaksToSlots(slots, breaks);
+    const combined = appendBreaksToSlots(slots, breaks);
     const start = {
         fitness: 0,
         selected: []
     };
 
     let best = null;
-    backtrack(combinedSlots, 0, start, threshold, (candidate) => {
+    backtrack(combined, 0, start, threshold, (candidate) => {
         if (!best || candidate.fitness < best.fitness) {
             best = candidate;
         }
