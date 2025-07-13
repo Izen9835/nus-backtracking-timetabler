@@ -1,6 +1,31 @@
-function solve(slots, breaks) {
+function appendBreaksToSlots(slots, breaks) {
+    const breakSlotGroup = breaks.map((brk, idx) => ({
+        classNo: `B${idx + 1}`,
+        timing: [
+            {
+                startTime: brk.startTime,
+                endTime: brk.endTime
+            }
+        ],
+        moduleCode: `BREAK`,
+        lessonType: 'BREAK',
+        weeks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    }));
+
+    // Push as individual slot "modules"
+    for (const breakSlot of breakSlotGroup) {
+        slots.push({
+            moduleCode: 'BREAK',
+            lessonType: 'BREAK',
+            slots: [breakSlot]
+        });
+    }
+
+    return slots;
+}
+function solve(combinedSlots) {
     const threshold = 10000;
-    slots.sort((a, b) => a.slots.length - b.slots.length);
+    combinedSlots.sort((a, b) => a.slots.length - b.slots.length);
 
     const start = {
         fitness: 0,
@@ -8,7 +33,7 @@ function solve(slots, breaks) {
     };
 
     let best = null;
-    backtrack(slots, 0, start, threshold, (candidate) => {
+    backtrack(combinedSlots, 0, start, threshold, (candidate) => {
         if (!best || candidate.fitness < best.fitness) {
             best = candidate;
         }
@@ -57,14 +82,12 @@ function backtrack(slots, index, curr, threshold, reportBest) {
         curr.fitness -= penalty;
     }
 }
-
 function cloneCombination(comb) {
     return {
         fitness: comb.fitness,
         selected: [...comb.selected]
     };
 }
-
 function convertToURL(slots, sem) {
     if (slots == null) return 'No Combination Works';
     const base = `https://nusmods.com/timetable/sem-${sem}/share?`;
