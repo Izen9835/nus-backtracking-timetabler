@@ -1,20 +1,21 @@
 export function solve(slots, breaks) {
     const threshold = 10000;
     slots.sort((a, b) => a.slots.length - b.slots.length);
-
+    const combinedSlots = appendBreaksToSlots(slots, breaks);
     const start = {
         fitness: 0,
         selected: []
     };
 
     let best = null;
-    backtrack(slots, 0, start, threshold, (candidate) => {
+    backtrack(combinedSlots, 0, start, threshold, (candidate) => {
         if (!best || candidate.fitness < best.fitness) {
             best = candidate;
         }
     });
     return best;
 }
+
 function backtrack(slots, index, curr, threshold, reportBest) {
     if (curr.fitness >= threshold) return;
 
@@ -65,7 +66,7 @@ function cloneCombination(comb) {
     };
 }
 
-export function appendBreaksToSlots(slots, breaks) {
+function appendBreaksToSlots(slots, breaks) {
     const breakSlotGroup = breaks.map((brk, idx) => ({
         classNo: `B${idx + 1}`,
         timing: [
