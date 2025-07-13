@@ -23,9 +23,10 @@ function appendBreaksToSlots(slots, breaks) {
 
     return slots;
 }
-function solve(combinedSlots) {
+function solve(slots, breaks) {
     const threshold = 10000;
-    combinedSlots.sort((a, b) => a.slots.length - b.slots.length);
+    slots.sort((a, b) => a.slots.length - b.slots.length);
+    const combinedSlots = appendBreaksToSlots(slots, breaks);
 
     const start = {
         fitness: 0,
