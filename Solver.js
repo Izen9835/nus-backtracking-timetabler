@@ -1,33 +1,7 @@
-function appendBreaksToSlots(slots, breaks) {
-    const breakSlotGroup = breaks.map((brk, idx) => ({
-        classNo: `B${idx + 1}`,
-        timing: [
-            {
-                startTime: brk.startTime,
-                endTime: brk.endTime
-            }
-        ],
-        moduleCode: `BREAK`,
-        lessonType: 'BREAK',
-        weeks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-    }));
-
-    // Push as individual slot "modules"
-    for (const breakSlot of breakSlotGroup) {
-        slots.push({
-            moduleCode: 'BREAK',
-            lessonType: 'BREAK',
-            slots: [breakSlot]
-        });
-    }
-
-    return slots;
-}
-function solve(slots, breaks) {
+export function solve(slots, breaks) {
     const threshold = 10000;
     slots.sort((a, b) => a.slots.length - b.slots.length);
     const combinedSlots = appendBreaksToSlots(slots, breaks);
-
     const start = {
         fitness: 0,
         selected: []
@@ -41,6 +15,7 @@ function solve(slots, breaks) {
     });
     return best;
 }
+
 function backtrack(slots, index, curr, threshold, reportBest) {
     if (curr.fitness >= threshold) return;
 
@@ -89,7 +64,34 @@ function cloneCombination(comb) {
         selected: [...comb.selected]
     };
 }
-function convertToURL(slots, sem) {
+
+function appendBreaksToSlots(slots, breaks) {
+    const breakSlotGroup = breaks.map((brk, idx) => ({
+        classNo: `B${idx + 1}`,
+        timing: [
+            {
+                startTime: brk.startTime,
+                endTime: brk.endTime
+            }
+        ],
+        moduleCode: `BREAK`,
+        lessonType: 'BREAK',
+        weeks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    }));
+
+    // Push as individual slot "modules"
+    for (const breakSlot of breakSlotGroup) {
+        slots.push({
+            moduleCode: 'BREAK',
+            lessonType: 'BREAK',
+            slots: [breakSlot]
+        });
+    }
+
+    return slots;
+}
+
+export function convertToURL(slots, sem) {
     if (slots == null) return 'No Combination Works';
     const base = `https://nusmods.com/timetable/sem-${sem}/share?`;
     const mods = {};

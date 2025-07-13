@@ -1,6 +1,27 @@
 {
   "dependencies": {
-    "genetic-js": "^0.1.14"
+    "express": "^5.1.0"
   },
-    "type": "module"
+  "type": "module",
+  "name": "nus-genetic-timetabler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Izen9835/NUS-Genetic-Timetabler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Izen9835/NUS-Genetic-Timetabler/issues"
+  },
+  "homepage": "https://github.com/Izen9835/NUS-Genetic-Timetabler#readme",
+  "description": ""
 }
