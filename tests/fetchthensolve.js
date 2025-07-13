@@ -1,7 +1,7 @@
 // const ModFetcher = require('../nusmodsFetcher');
-import ModFetcher from '../nusmodsFetcher.mjs'
+import ModFetcher from '../API/nusmodsFetcher.mjs'
 
-import { solve, convertToURL } from '../Solver.js';
+import { solve, convertToURL } from '../API/Solver.js';
 
 
 // user input after cleaning

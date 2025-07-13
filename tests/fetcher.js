@@ -1,5 +1,5 @@
 // const ModFetcher = require('../nusmodsFetcher');
-import ModFetcher from '../nusmodsFetcher.mjs'
+import ModFetcher from '../API/nusmodsFetcher.mjs'
 
 // user input after cleaning
 var _modList = ['CS1010'];
