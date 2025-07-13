@@ -55,7 +55,7 @@ bot.onText(/\/generate/, async (msg) => {
   const state = userState.get(chatId);
   if (!state || !state.mods?.length) return;
 
-  const apiURL = 'http://localhost:3000/nusmodsURL';
+  const apiURL = 'http://34.67.168.200:3000/nusmodsURL';
   const queryParams = new URLSearchParams({
     mods: state.mods.join(','),
     sem: '1',
@@ -65,7 +65,7 @@ bot.onText(/\/generate/, async (msg) => {
 
   try {
     const response = await axios.get(`${apiURL}?${queryParams}`);
-    const finalLink = response.data?.url || response.data;
+    const finalLink = response.data?.output || response.data;
 
     bot.sendMessage(chatId, `Here you go! Click [this link](${finalLink}) to view your customized timetable!`, {
       parse_mode: 'Markdown'
@@ -83,7 +83,9 @@ bot.on('callback_query', (callbackQuery) => {
   const state = userState.get(chatId);
   if (!state) return;
 
-  const [type, value] = callbackQuery.data.split(':');
+  const [type, ...rest] = callbackQuery.data.split(':');
+  const value = rest.join(':'); // Fix for values with colon
+
 
   if (type === 'breakDay') {
     state.currentBreak = { day: value };
@@ -116,7 +118,7 @@ bot.on('callback_query', (callbackQuery) => {
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
-
+  if (!text || text.startsWith('/')) return;
   if (!userState.has(chatId)) return;
 
   const state = userState.get(chatId);
