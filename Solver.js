@@ -65,6 +65,32 @@ function cloneCombination(comb) {
     };
 }
 
+export function appendBreaksToSlots(slots, breaks) {
+    const breakSlotGroup = breaks.map((brk, idx) => ({
+        classNo: `B${idx + 1}`,
+        timing: [
+            {
+                startTime: brk.startTime,
+                endTime: brk.endTime
+            }
+        ],
+        moduleCode: `BREAK`,
+        lessonType: 'BREAK',
+        weeks: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+    }));
+
+    // Push as individual slot "modules"
+    for (const breakSlot of breakSlotGroup) {
+        slots.push({
+            moduleCode: 'BREAK',
+            lessonType: 'BREAK',
+            slots: [breakSlot]
+        });
+    }
+
+    return slots;
+}
+
 export function convertToURL(slots, sem) {
     if (slots == null) return 'No Combination Works';
     const base = `https://nusmods.com/timetable/sem-${sem}/share?`;
