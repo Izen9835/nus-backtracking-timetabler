@@ -65,7 +65,7 @@ function cloneCombination(comb) {
     };
 }
 
-function breakConverter(breaks) {
+function breakConverter(breaksByDay) {
     const dayToMinutes = {
         Monday: 0,
         Tuesday: 1440,
@@ -74,17 +74,17 @@ function breakConverter(breaks) {
         Friday: 5760,
         Saturday: 7200,
         Sunday: 8640
-      };
-    
-      function timeToMinutes(timeStr) {
+    };
+
+    function timeToMinutes(timeStr) {
         const [hour, minute] = timeStr.split(':').map(Number);
         return hour * 60 + minute;
-      }
-    
-      return breaksByDay.map(({ day, startTime, endTime }) => ({
+    }
+
+    return breaksByDay.map(({ day, startTime, endTime }) => ({
         startTime: dayToMinutes[day] + timeToMinutes(startTime),
         endTime: dayToMinutes[day] + timeToMinutes(endTime)
-      }));
+    }));
 }
 
 function appendBreaksToSlots(slots, breaks) {

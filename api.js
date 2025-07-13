@@ -50,6 +50,7 @@ app.get('/nusmodsURL', async (req, res) => {
         const modList = (req.query.mods || '').split(',').map(s => s.trim()).filter(Boolean);
         const sem = parseInt(req.query.sem, 10);
         const acadYear = req.query.acadYear;
+        const breaks = JSON.parse(req.query.breaksByDay);
 
         if (!modList.length || !sem || !acadYear) {
             return res.status(400).json({ error: 'Missing required query parameters: mods, sem, acadYear' });
@@ -57,7 +58,7 @@ app.get('/nusmodsURL', async (req, res) => {
 
         const fetcher = new ModFetcher(modList, sem, acadYear);
         const modData = await fetcher.getCleaned();
-        const output = convertToURL(solve(modData, []), sem);
+        const output = convertToURL(solve(modData, breaks), sem);
         res.json({ output });
     } catch (err) {
         res.status(400).json({ error: err.message });
