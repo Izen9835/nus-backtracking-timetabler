@@ -6,21 +6,21 @@ const bot = new TelegramBot(token, { polling: true });
 
 const userState = new Map(); // userId → { stage, mods, breaks, currentBreak }
 
-const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+const days = ['Daily Break', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
 const times = ['08:00', '08:30', '09:00', '09:30', '10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30', '14:00', '14:30', '15:00', '15:30', '16:00', '16:30', '17:00', '17:30', '18:00'];
 
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   userState.set(chatId, { stage: 'awaitingModules', breaks: [] });
 
-  bot.sendMessage(chatId, `Hello there! Let me help you plan your timetable! First, tell me the modules you will be taking this semester.`);
+  bot.sendMessage(chatId, `Hello there! Let me help you plan your timetable! First, could I ask, what modules will you be taking this semester? \n\nPlease respond in the following format, ensuring the modules are comma separated, as shown below (lowercase works too!): \n\n CSXXXX, MAXXXX, HSIXXXX, ...`);
 });
 
 bot.onText(/\/reset/, (msg) => {
   const chatId = msg.chat.id;
   userState.delete(chatId);
 
-  bot.sendMessage(chatId, `Alright, I've reset our conversation. Let's start over! 🚀\n\nPlease tell me the modules you'll be taking this semester.`);
+  bot.sendMessage(chatId, `Alright, I've reset our conversation. Let's start over! \n\nCould you refresh my memory by telling me about the modules you'll be taking this semester?`);
   userState.set(chatId, { stage: 'awaitingModules', breaks: [] });
 });
 
@@ -42,11 +42,11 @@ bot.onText(/\/finaliseBreak/, (msg) => {
   const chatId = msg.chat.id;
   const state = userState.get(chatId);
   if (!state || !state.breaks.length) {
-    bot.sendMessage(chatId, `Here's a summary of your breaks:\nNo breaks selected.\n\nType /generate to get your timetable link.`);
+    bot.sendMessage(chatId, `Here's a summary of your breaks:\nNo breaks selected.\n\nClick on /generate to get your timetable link.`);
   }
   else {
     const summary = state.breaks.map(b => `• ${b.day} ${b.startTime} - ${b.endTime}`).join('\n');
-    bot.sendMessage(chatId, `Here's a summary of your breaks:\n${summary}\n\nType /generate to get your timetable link.`);
+    bot.sendMessage(chatId, `Here's a summary of your breaks:\n${summary}\n\nClick on /generate to get your timetable link.`);
   }
 });
 
@@ -109,10 +109,45 @@ bot.on('callback_query', (callbackQuery) => {
 
   else if (type === 'breakEnd') {
     state.currentBreak.endTime = value;
-    state.breaks.push(state.currentBreak);
+    const { day, startTime, endTime } = state.currentBreak;
+    if (day === 'Daily Break') {
+      const weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+      for (const day of weekdays) {
+        state.breaks.push({
+          day: day,
+          startTime,
+          endTime
+        });
+      }
+      bot.sendMessage(chatId, `✅ Daily break added for all weekdays!\n(${startTime} - ${endTime})`);
+    } else {
+      state.breaks.push({ ...state.currentBreak });
+      bot.sendMessage(chatId, `✅ Break added for ${day}!\n(${startTime} - ${endTime})`);
+    }
     delete state.currentBreak;
-    bot.sendMessage(chatId, `✅ Break added! You can type /addBreak to add another or /finaliseBreak to continue.`);
+    bot.sendMessage(chatId, `You can click on /addBreak to add another or /finaliseBreak to continue.`);
   }
+});
+
+bot.onText(/\/deleteBreak/, (msg) => {
+  const chatId = msg.chat.id;
+  const state = userState.get(chatId);
+
+  if (!state || !state.breaks.length) {
+    bot.sendMessage(chatId, `You don't have any breaks to delete.`);
+    return;
+  }
+
+  const buttons = state.breaks.map((b, index) => {
+    const label = `${b.day} ${b.startTime} - ${b.endTime}`;
+    return [{ text: label, callback_data: `deleteBreak:${index}` }];
+  });
+
+  bot.sendMessage(chatId, `Select a break to delete:`, {
+    reply_markup: {
+      inline_keyboard: buttons
+    }
+  });
 });
 
 bot.on('message', async (msg) => {
