@@ -1,0 +1,137 @@
+[
+  {
+    "moduleCode": "CG2111A",
+    "lessonType": "Laboratory",
+    "slots": [
+      {
+        "classNo": [
+          "01",
+          "05"
+        ],
+        "moduleCode": "CG2111A",
+        "lessonType": "LAB",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          },
+          {
+            "startTime": 840,
+            "endTime": 1020
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "04"
+        ],
+        "moduleCode": "CG2111A",
+        "lessonType": "LAB",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          },
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "03"
+        ],
+        "moduleCode": "CG2111A",
+        "lessonType": "LAB",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          },
+          {
+            "startTime": 3720,
+            "endTime": 3900
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "02"
+        ],
+        "moduleCode": "CG2111A",
+        "lessonType": "LAB",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6780
+          },
+          {
+            "startTime": 2280,
+            "endTime": 2460
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  }
+]

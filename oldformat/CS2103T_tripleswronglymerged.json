@@ -1,0 +1,1145 @@
+[
+  {
+    "moduleCode": "CS2103T",
+    "lessonType": "Lecture",
+    "slots": [
+      {
+        "classNo": [
+          "G17",
+          "G27"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6660,
+            "endTime": 6720
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G03"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3360,
+            "endTime": 3420
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G12"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 4800,
+            "endTime": 4860
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G09",
+          "G10"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 2160,
+            "endTime": 2340
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G15",
+          "G26"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3780
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G15"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 4980,
+            "endTime": 5040
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G09"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6360,
+            "endTime": 6420
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G24",
+          "G25"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6660
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G23"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3720,
+            "endTime": 3780
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G25"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5280,
+            "endTime": 5340
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G24"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5220,
+            "endTime": 5280
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G14",
+          "G26"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6600,
+            "endTime": 6660
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G01",
+          "G02",
+          "G03",
+          "G04",
+          "G05",
+          "G06",
+          "G07",
+          "G08",
+          "G09",
+          "G10",
+          "G11",
+          "G12",
+          "G13",
+          "G14",
+          "G15",
+          "G16",
+          "G17",
+          "G18",
+          "G19",
+          "G20",
+          "G21",
+          "G22",
+          "G23",
+          "G24",
+          "G25",
+          "G26",
+          "G27",
+          "G28"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6720,
+            "endTime": 6840
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G18",
+          "G19",
+          "G28"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5220
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G22",
+          "G23"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6480
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G11",
+          "G12"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 2340,
+            "endTime": 2520
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G16",
+          "G17"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 5040
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G05",
+          "G06"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 900,
+            "endTime": 1080
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G01",
+          "G02"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 540,
+            "endTime": 720
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G20",
+          "G21"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5220,
+            "endTime": 5400
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G13",
+          "G14"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3600
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G02"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5100,
+            "endTime": 5160
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G11"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5340,
+            "endTime": 5400
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G04"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3480,
+            "endTime": 3540
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G18"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6300,
+            "endTime": 6360
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G16"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6420,
+            "endTime": 6480
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G22"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5160,
+            "endTime": 5220
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G03",
+          "G04",
+          "G27"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 720,
+            "endTime": 900
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G07",
+          "G08"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 1980,
+            "endTime": 2160
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G19"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6480,
+            "endTime": 6540
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G21"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 4920,
+            "endTime": 4980
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G13"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6540,
+            "endTime": 6600
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G07"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3540,
+            "endTime": 3600
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G20"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3600,
+            "endTime": 3660
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G08"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3660,
+            "endTime": 3720
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G10"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 4860,
+            "endTime": 4920
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G06",
+          "G28"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 6240,
+            "endTime": 6300
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G05"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 5040,
+            "endTime": 5100
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "classNo": [
+          "G01"
+        ],
+        "moduleCode": "CS2103T",
+        "lessonType": "LEC",
+        "timing": [
+          {
+            "startTime": 3420,
+            "endTime": 3480
+          }
+        ],
+        "weeks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ]
+  }
+]

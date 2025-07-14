@@ -125,7 +125,7 @@ export default class ModFetcher {
    * @returns {Array} - Grouped and merged timetable objects
    */
   processTimetable(lessons, moduleCode) {
-    // 1. Group by original lessonType (e.g., "Laboratory")
+    // 1. Group by lessonType
     const lessonTypeGroups = {};
     for (const lesson of lessons) {
       if (!lessonTypeGroups[lesson.lessonType]) {
@@ -134,65 +134,68 @@ export default class ModFetcher {
       lessonTypeGroups[lesson.lessonType].push(lesson);
     }
 
-    // 2. For each lessonType group, merge by timing & classNo
     const result = [];
 
     for (const [lessonType, group] of Object.entries(lessonTypeGroups)) {
-      // Map from timingKey (string) to slot object
-      const timingMap = {};
-
+      // 2. Group by classNo, collecting all timings and weeks for each classNo
+      const classNoMap = {};
       for (const lesson of group) {
-        // Compute timing in minutes
-        const start = this.absoluteMinutes(lesson.day, lesson.startTime);
-        const end = this.absoluteMinutes(lesson.day, lesson.endTime);
-
-        // Use timing as part of the key
-        const timingKey = `${start}-${end}`;
-
-        // Optionally, you can merge by weeks too if needed, but for now, merge only by timing
-        if (!timingMap[timingKey]) {
-          timingMap[timingKey] = {
-            classNos: new Set(),
-            weeks: new Set(),
-            timing: { startTime: start, endTime: end }
-          };
-        }
-        timingMap[timingKey].classNos.add(lesson.classNo);
-        lesson.weeks.forEach(w => timingMap[timingKey].weeks.add(w));
+        if (!classNoMap[lesson.classNo]) classNoMap[lesson.classNo] = [];
+        classNoMap[lesson.classNo].push(lesson);
       }
 
-      // Now, merge slots with identical timings into one slot with multiple classNos
-      // But also, if slots have identical classNos and lessonType, merge their timings
+      // 3. For each classNo, build a canonical signature of its timings
+      const signatureMap = {}; // key: timing signature, value: {classNos, timings, weeks}
+      for (const [classNo, lessonsOfClass] of Object.entries(classNoMap)) {
+        // Gather all timings for this classNo
+        const timings = lessonsOfClass.map(lesson => ({
+          day: lesson.day,
+          startTime: this.absoluteMinutes(lesson.day, lesson.startTime),
+          endTime: this.absoluteMinutes(lesson.day, lesson.endTime)
+        }));
+        // Canonicalize: sort timings and stringify for signature
+        const sortedTimingStrs = timings
+          .map(t => `${t.day}-${t.startTime}-${t.endTime}`)
+          .sort();
+        const timingSignature = sortedTimingStrs.join('|');
 
-      // First, group by classNos
-      const classNoMap = {};
+        // Gather all weeks
+        const weeksSet = new Set();
+        lessonsOfClass.forEach(lesson => lesson.weeks.forEach(w => weeksSet.add(w)));
 
-      for (const slot of Object.values(timingMap)) {
-        // Key by sorted classNos
-        const classNoKey = Array.from(slot.classNos).sort().join(",");
-        if (!classNoMap[classNoKey]) {
-          classNoMap[classNoKey] = {
-            classNo: Array.from(slot.classNos).sort(),
-            moduleCode,
-            lessonType: this.lessonTypeMap[lessonType] || lessonType,
-            timing: [],
+        // Group classNos by their timing signature
+        if (!signatureMap[timingSignature]) {
+          signatureMap[timingSignature] = {
+            classNos: [],
+            timings: sortedTimingStrs,
             weeks: new Set()
           };
         }
-        classNoMap[classNoKey].timing.push(slot.timing);
-        slot.weeks.forEach(w => classNoMap[classNoKey].weeks.add(w));
+        signatureMap[timingSignature].classNos.push(classNo);
+        lessonsOfClass.forEach(lesson => lesson.weeks.forEach(w => signatureMap[timingSignature].weeks.add(w)));
       }
 
-      // Prepare the slots array
-      const slots = Object.values(classNoMap).map(slot => ({
-        classNo: slot.classNo,
-        moduleCode: slot.moduleCode,
-        lessonType: slot.lessonType,
-        timing: slot.timing,
-        weeks: Array.from(slot.weeks).sort((a, b) => a - b)
-      }));
+      // 4. Build slots: each slot is a group of classNos with identical timings
+      const slots = [];
+      for (const sigObj of Object.values(signatureMap)) {
+        // Convert timing strings back to objects for output
+        const uniqueTimings = sigObj.timings.map(str => {
+          const [day, start, end] = str.split('-');
+          return {
+            startTime: Number(start),
+            endTime: Number(end)
+          };
+        });
 
-      // Push to result
+        slots.push({
+          classNo: sigObj.classNos.sort(),
+          moduleCode,
+          lessonType: this.lessonTypeMap[lessonType] || lessonType,
+          timing: uniqueTimings,
+          weeks: Array.from(sigObj.weeks).sort((a, b) => a - b)
+        });
+      }
+
       result.push({
         moduleCode,
         lessonType,
@@ -202,6 +205,7 @@ export default class ModFetcher {
 
     return result;
   }
+
 
 
 
