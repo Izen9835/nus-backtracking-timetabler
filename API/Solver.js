@@ -1,8 +1,8 @@
 export function solve(slots, breaks) {
     const threshold = 10000;
-    optimiseForSolving(slots);
     //slots.sort((a, b) => a.slots.length - b.slots.length); 
     const combined = appendBreaksToSlots(slots, breaks);
+    optimiseForSolving(combined);
     const start = {
         fitness: 0,
         selected: []
@@ -36,6 +36,7 @@ function optimiseForSolving(slots) {
                             }
                         }
                     }
+                    return acc;
                 }, 0)
             };
             return conflictCount(s1) - conflictCount(s2);
