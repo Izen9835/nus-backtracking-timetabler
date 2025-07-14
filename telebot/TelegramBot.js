@@ -41,13 +41,32 @@ bot.onText(/\/addBreak/, (msg) => {
 bot.onText(/\/finaliseBreak/, (msg) => {
   const chatId = msg.chat.id;
   const state = userState.get(chatId);
+
   if (!state || !state.breaks.length) {
-    bot.sendMessage(chatId, `Here's a summary of your breaks:\nNo breaks selected.\n\nClick on /generate to get your timetable link.`);
+    bot.sendMessage(chatId, `Here's a summary of your breaks:\nNo breaks selected.\n\nPress on /generate to get your timetable link.`);
+    return;
   }
-  else {
-    const summary = state.breaks.map(b => `• ${b.day} ${b.startTime} - ${b.endTime}`).join('\n');
-    bot.sendMessage(chatId, `Here's a summary of your breaks:\n${summary}\n\nClick on /generate to get your timetable link.`);
+
+  const grouped = {};
+  for (const b of state.breaks) {
+    if (!grouped[b.day]) grouped[b.day] = [];
+    grouped[b.day].push(`${b.startTime} - ${b.endTime}`);
   }
+
+  const orderedDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+
+  let summary = `Here's a summary of your breaks:\n`;
+
+  for (const day of orderedDays) {
+    if (grouped[day]) {
+      summary += `\n${day}:\n`;
+      for (const time of grouped[day]) {
+        summary += `• ${time}\n`;
+      }
+    }
+  }
+
+  bot.sendMessage(chatId, summary + `\nPress on /generate to get your timetable link. If you would like to amend your breaks, press on /addBreak or /deleteBreak`);
 });
 
 bot.onText(/\/generate/, async (msg) => {
@@ -67,7 +86,7 @@ bot.onText(/\/generate/, async (msg) => {
     const response = await axios.get(`${apiURL}?${queryParams}`);
     const finalLink = response.data?.output || response.data;
 
-    bot.sendMessage(chatId, `Here you go! Click [this link](${finalLink}) to view your customized timetable!`, {
+    bot.sendMessage(chatId, `Here you go! Press [this link](${finalLink}) to view your customized timetable!`, {
       parse_mode: 'Markdown'
     });
 
@@ -125,7 +144,27 @@ bot.on('callback_query', (callbackQuery) => {
       bot.sendMessage(chatId, `✅ Break added for ${day}!\n(${startTime} - ${endTime})`);
     }
     delete state.currentBreak;
-    bot.sendMessage(chatId, `You can click on /addBreak to add another or /finaliseBreak to continue.`);
+    bot.sendMessage(chatId, `You can press on /addBreak to add another or /finaliseBreak to continue. If you would like to remove a break, press on /deleteBreak`);
+  }
+
+  else if (type === 'deleteBreak') {
+    const index = parseInt(value);
+    if (!isNaN(index) && index >= 0 && index < state.breaks.length) {
+      const removed = state.breaks.splice(index, 1)[0];
+  
+      // Confirmation message
+      bot.sendMessage(chatId, `Deleted break: ${removed.day} ${removed.startTime} - ${removed.endTime}`);
+  
+      // Show updated summary
+      if (state.breaks.length === 0) {
+        bot.sendMessage(chatId, `You have no breaks left.`);
+      } else {
+        const summary = state.breaks.map(b => `• ${b.day} ${b.startTime} - ${b.endTime}`).join('\n');
+        bot.sendMessage(chatId, `Updated list of breaks:\n${summary}`);
+      }
+    } else {
+      bot.sendMessage(chatId, `Could not delete the selected break.`);
+    }
   }
 });
 
@@ -183,7 +222,7 @@ bot.on('message', async (msg) => {
         return;
       } else {
         state.stage = 'idle';
-        bot.sendMessage(chatId, `Great! Now add breaks you want by typing /addBreak. Once done, press /finaliseBreak`);
+        bot.sendMessage(chatId, `Great! Now add breaks you want by pressing /addBreak. Once done, press /finaliseBreak`);
       }
     } catch (err) {
       bot.sendMessage(chatId, `There was an error checking your modules. Please try again.`);
