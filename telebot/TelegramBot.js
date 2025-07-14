@@ -42,12 +42,12 @@ bot.onText(/\/finaliseBreak/, (msg) => {
   const chatId = msg.chat.id;
   const state = userState.get(chatId);
   if (!state || !state.breaks.length) {
-    bot.sendMessage(chatId, 'You have not added any breaks yet. Use /addBreak to get started.');
-    return;
+    bot.sendMessage(chatId, `Here's a summary of your breaks:\nNo breaks selected.\n\nType /generate to get your timetable link.`);
   }
-
-  const summary = state.breaks.map(b => `• ${b.day} ${b.startTime} - ${b.endTime}`).join('\n');
-  bot.sendMessage(chatId, `Here's a summary of your breaks:\n${summary}\n\nType /generate to get your timetable link.`);
+  else {
+    const summary = state.breaks.map(b => `• ${b.day} ${b.startTime} - ${b.endTime}`).join('\n');
+    bot.sendMessage(chatId, `Here's a summary of your breaks:\n${summary}\n\nType /generate to get your timetable link.`);
+  }
 });
 
 bot.onText(/\/generate/, async (msg) => {
@@ -123,11 +123,36 @@ bot.on('message', async (msg) => {
 
   const state = userState.get(chatId);
 
+  // Only accept module input in the correct stage
   if (state.stage === 'awaitingModules') {
-    const mods = text.split(',').map(s => s.trim().toUpperCase());
+    const mods = text.split(',').map(s => s.trim().toUpperCase()).filter(Boolean);
+    if (!mods.length) {
+      bot.sendMessage(chatId, 'Please enter at least one module, separated by commas.');
+      return;
+    }
     state.mods = mods;
-    state.stage = 'idle';
 
-    bot.sendMessage(chatId, `Great! Now add breaks you want by typing /addBreak. Once done, press /finaliseBreak`);
+    const apiURL = 'http://34.67.168.200:3000/nusmodsURL';
+    const queryParams = new URLSearchParams({
+      mods: mods,
+      sem: '1',
+      acadYear: '2025-2026',
+      breaksByDay: JSON.stringify(state.breaks)
+    });
+
+    try {
+      const response = await axios.get(`${apiURL}?${queryParams}`);
+
+      if (response.data?.output == "No Combination Works") {
+        bot.sendMessage(chatId, `That combination has unavoidable clashes. Please try another one.\n\nEnter your modules as a comma-separated list (e.g., CS1010, MA1101R).`);
+        return;
+      } else {
+        state.stage = 'idle';
+        bot.sendMessage(chatId, `Great! Now add breaks you want by typing /addBreak. Once done, press /finaliseBreak`);
+      }
+    } catch (err) {
+      bot.sendMessage(chatId, `There was an error checking your modules. Please try again.`);
+      return;
+    }
   }
 });

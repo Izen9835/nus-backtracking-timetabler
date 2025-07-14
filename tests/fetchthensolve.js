@@ -5,7 +5,8 @@ import { solve, convertToURL } from '../API/Solver.js';
 
 
 // user input after cleaning
-var _modList = ['CS1010'];
+// var _modList = ['CS2040C', 'CS2107', 'EE2012', 'EE4204', 'EE2026'];
+var _modList = ['CS2040C', 'CS2017', 'EE2012', 'EE2026'];
 var _sem = 1
 var _acadYear = "2025-2026";
 
